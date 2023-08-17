@@ -6,6 +6,6 @@ const calculateSupply = (age, amountPerDay) => {
   return lifeTimeSupply
 }
 
-let lifeTimeSupply = calculateSupply(20, 2)
+let lifeTimeSupply = calculateSupply(20, 0.2)
 
-console.log(`You will need ${lifeTimeSupply} to last you until the ripe old age of ${maxAge}`);
+console.log(`You will need ${Math.trunc(lifeTimeSupply)} to last you until the ripe old age of ${maxAge}`);
