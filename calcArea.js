@@ -6,4 +6,4 @@ const calcArea = (radius) => {
 }
 
 let area = calcArea(2)
-console.log(area);
+console.log(`The area is ${area}`);
